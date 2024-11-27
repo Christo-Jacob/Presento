@@ -1,0 +1,2244 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Presento</title>
+      <link rel="icon" href="img/favicon.png" />
+      <link
+         href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+         rel="stylesheet"
+         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+         crossorigin="anonymous"
+      />
+      <link rel="stylesheet" href="style.css" />
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+         crossorigin="anonymous"
+         referrerpolicy="no-referrer"
+      />
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+         integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+         crossorigin="anonymous"
+         referrerpolicy="no-referrer"
+      />
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+         integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+         crossorigin="anonymous"
+         referrerpolicy="no-referrer"
+      />
+      <link
+         rel="stylesheet"
+         href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+      />
+   </head>
+   <body class="position-relative">
+      <!-- navbar -->
+      <nav class="navbar fixed-top navbar-expand-lg bg-white shadow-sm">
+         <div class="container pt-4 pb-4">
+            <div class="head">
+               <a class="navbar-brand fs-2 fw-bold" href="#"
+                  >Presento <span class="text-danger">.</span></a
+               >
+            </div>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+               <ul
+                  class="navbar-nav d-flex gap-3 me-4 fs-6 fw-medium"
+                  style="margin-left: auto"
+               >
+                  <li class="nav-item">
+                     <a
+                        class="nav-link text-danger"
+                        aria-current="page"
+                        href="#"
+                        >Home</a
+                     >
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">Service</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">Team</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="blog.html">Blog</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                     <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                     >
+                        Dropdown
+                     </a>
+                     <ul class="navbar-nav">
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                           <ul
+                              class="dropdown-menu"
+                              aria-labelledby="navbarDropdownMenuLink"
+                           >
+                              <li>
+                                 <a class="dropdown-item" href="#"
+                                    >Dropdown 1</a
+                                 >
+                              </li>
+                              <li>
+                                 <a class="dropdown-item" href="#"
+                                    >Dropdown 2</a
+                                 >
+                              </li>
+                              <li>
+                                 <a
+                                    class="nav-link dropdown-toggle"
+                                    href="#"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                 >
+                                    Deep Dropdown
+                                 </a>
+                                 <ul class="dropdown-menu dropdown-submenu">
+                                    <li>
+                                       <a class="dropdown-item" href="#"
+                                          >Dropdown 1</a
+                                       >
+                                    </li>
+                                    <li>
+                                       <a class="dropdown-item" href="#"
+                                          >Dropdown 2</a
+                                       >
+                                    </li>
+                                    <li>
+                                       <a class="dropdown-item" href="#"
+                                          >Dropdown 3
+                                       </a>
+                                    </li>
+                                    <li>
+                                       <a class="dropdown-item" href="#"
+                                          >Dropdown 4
+                                       </a>
+                                    </li>
+                                    <li>
+                                       <a class="dropdown-item" href="#"
+                                          >Dropdown 5
+                                       </a>
+                                    </li>
+                                 </ul>
+                              </li>
+                              <li>
+                                 <a class="dropdown-item" href="#"
+                                    >Dropdown 4
+                                 </a>
+                              </li>
+                              <li>
+                                 <a class="dropdown-item" href="#"
+                                    >Dropdown 5
+                                 </a>
+                              </li>
+                           </ul>
+                        </li>
+                     </ul>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">contact</a>
+                  </li>
+               </ul>
+            </div>
+            <button class="btn btn-danger ms-auto me-3">Get Started</button>
+            <button
+               class="navbar-toggler border-0"
+               type="button"
+               data-bs-toggle="collapse"
+               data-bs-target="#navbarNavDropdown"
+               aria-controls="navbarNavDropdown"
+               aria-expanded="false"
+               aria-label="Toggle navigation"
+            >
+               <span class="navbar-toggler-icon"></span>
+            </button>
+         </div>
+      </nav>
+      <!-- navbar end -->
+
+      <!-- banner -->
+      <section class="banner">
+         <div class="container b-content opacity-1">
+            <div class="row banner-con text-white">
+               <div
+                  class="col-lg-6 col-md-6 d-flex align-items-center"
+                  style="padding-top: 120px"
+               >
+                  <div>
+                     <h5
+                        class="hero"
+                        style="font-size: 48px; font-weight: 700; margin: 0"
+                     >
+                        Bettter digital experience with Presento
+                     </h5>
+                     <p
+                        style="
+                           margin: 10px 0 0 0;
+                           font-size: 24px;
+                           color: #d0d0c4;
+                        "
+                     >
+                        We are team of talented designers making websites with
+                        <br />
+                        Bootstrap
+                     </p>
+                     <div class="d-flex gap-5 align-items-center">
+                        <button type="submit" class="btn btn-danger px-5 py-2">
+                           Get Started
+                        </button>
+                        <p class="fs-5 fw-bold py-3 pt-4">
+                           <i
+                              class="bi bi-play-circle text-danger fs-2 fw-bold pe-3"
+                           ></i
+                           >Watch Vedio
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <div class="fixed">
+            <form action="" class="f1">
+               <button type="submit" class="b1 px-2 py-2 btn btn-danger">
+                  <i class="bi bi-arrow-up p-1"></i>
+               </button>
+            </form>
+         </div>
+      </section>
+      <!-- banner end -->
+
+      <!-- client carousel -->
+      <section class="container-fluid my-5 pb-5">
+         <div class="container">
+            <div class="carousel-1 owl-carousel owl-theme">
+               <div class="item">
+                  <img
+                     src="img/clients/client-1.png"
+                     alt="oops"
+                     class="grayscale-filter"
+                  />
+               </div>
+               <div class="item">
+                  <img
+                     src="img/clients/client-2.png"
+                     alt="oops"
+                     class="grayscale-filter"
+                  />
+               </div>
+               <div class="item">
+                  <img
+                     src="img/clients/client-3.png"
+                     alt="oops"
+                     class="grayscale-filter"
+                  />
+               </div>
+               <div class="item">
+                  <img
+                     src="img/clients/client-4.png"
+                     alt="oops"
+                     class="grayscale-filter"
+                  />
+               </div>
+               <div class="item">
+                  <img
+                     src="img/clients/client-5.png"
+                     alt="oops"
+                     class="grayscale-filter"
+                  />
+               </div>
+               <div class="item">
+                  <img
+                     src="img/clients/client-6.png"
+                     alt="oops"
+                     class="grayscale-filter"
+                  />
+               </div>
+               <div class="item">
+                  <img
+                     src="img/clients/client-7.png"
+                     alt="oops"
+                     class="grayscale-filter"
+                  />
+               </div>
+               <div class="item">
+                  <img
+                     src="img/clients/client-8.png"
+                     alt="oops"
+                     class="grayscale-filter"
+                  />
+               </div>
+               <div class="item">
+                  <img
+                     src="img/clients/client-1.png"
+                     alt="oops"
+                     class="grayscale-filter"
+                  />
+               </div>
+               <div class="item">
+                  <img
+                     src="img/clients/client-2.png"
+                     alt="oops"
+                     class="grayscale-filter"
+                  />
+               </div>
+               <div class="item">
+                  <img
+                     src="img/clients/client-3.png"
+                     alt="oops"
+                     class="grayscale-filter"
+                  />
+               </div>
+               <div class="item">
+                  <img
+                     src="img/clients/client-4.png"
+                     alt="oops"
+                     class="grayscale-filter"
+                  />
+               </div>
+               <div class="item">
+                  <img
+                     src="img/clients/client-5.png"
+                     alt="oops"
+                     class="grayscale-filter"
+                  />
+               </div>
+               <div class="item">
+                  <img
+                     src="img/clients/client-6.png"
+                     alt="oops"
+                     class="grayscale-filter"
+                  />
+               </div>
+               <div class="item">
+                  <img
+                     src="img/clients/client-7.png"
+                     alt="oops"
+                     class="grayscale-filter"
+                  />
+               </div>
+               <div class="item">
+                  <img
+                     src="img/clients/client-8.png"
+                     alt="oops"
+                     class="grayscale-filter"
+                  />
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- client carousel end -->
+
+      <!-- about us -->
+      <section class="about bg-dark mt-5">
+         <div class="container content opacity-1">
+            <div class="row">
+               <div class="col-lg-12 col-xl-5 text-white">
+                  <div>
+                     <h1
+                        class="fs-2 my-4 fw-bold"
+                        style="font-size: 34px !important"
+                     >
+                        Voluptatem dignissimos provident quasi
+                     </h1>
+                     <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Duis aute irure dolor in reprehenderit
+                     </p>
+                     <form action="" class="d-flex justify-content-center">
+                        <button
+                           type="submit"
+                           class="btn border-danger border-2 text-white rounded-pill my-3 px-4 py-2"
+                        >
+                           ABOUT US >
+                        </button>
+                     </form>
+                  </div>
+               </div>
+               <div class="col-lg-12 col-xl-7">
+                  <div class="row">
+                     <div class="col-md-6 text-white">
+                        <a
+                           href=""
+                           class="pb-3 head-5 text-decoration-none text-white"
+                        >
+                           <i class="bi bi-envelope fs-1 text-danger"></i>
+                           <h5>Corporis voluptates sit</h5>
+                           <p class="text-white-50" style="font-size: 15px">
+                              Consequuntur sunt aut quasi enim aliquam quae
+                              <br />
+                              harum pariatur laboris nisi ut aliquip
+                           </p>
+                        </a>
+                     </div>
+                     <div class="col-md-6 text-white">
+                        <a
+                           href=""
+                           class="pb-3 head-5 text-decoration-none text-white"
+                        >
+                           <i class="bi bi-envelope fs-1 text-danger"></i>
+                           <h5>Corporis voluptates sit</h5>
+                           <p class="text-white-50" style="font-size: 15px">
+                              Excepteur sint occaecat cupidatat non proident,
+                              sunt in culpa qui officia deserunt
+                           </p>
+                        </a>
+                     </div>
+                     <div class="col-md-6 text-white m-0">
+                        <a
+                           href=""
+                           class="pb-3 head-5 text-decoration-none text-white"
+                        >
+                           <i class="bi bi-envelope fs-1 text-danger"></i>
+                           <h5>Corporis voluptates sit</h5>
+                           <p class="text-white-50" style="font-size: 15px">
+                              Aut suscipit aut cum nemo deleniti aut omnis.
+                              Doloribus ut maiores omnis facere
+                           </p>
+                        </a>
+                     </div>
+                     <div class="col-md-6 text-white m-0">
+                        <a
+                           href=""
+                           class="pb-3 head-5 text-decoration-none text-white"
+                        >
+                           <i class="bi bi-envelope fs-1 text-danger"></i>
+                           <h5>Corporis voluptates sit</h5>
+                           <p class="text-white-50" style="font-size: 15px">
+                              Expedita veritatis consequuntur nihil tempore
+                              laudantium vitae denat pacta
+                           </p>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- about us end -->
+
+      <!-- section -->
+
+      <section class="smile py-5 bg-light">
+         <!-- smiley -->
+         <div class="container py-5 smile-container my-5">
+            <div class="row">
+               <div class="col-md-6 col-lg-3 py-4">
+                  <div
+                     class="smile-box bg-white shadow text-center rounded-1 position-relative py-4"
+                  >
+                     <h1>232</h1>
+                     <p>Happy Client</p>
+
+                     <i
+                        class="smile-icon bi bi-emoji-smile fs-3 text-danger shadow d-flex justify-content-center align-items-center bg-white rounded-circle position-absolute"
+                     ></i>
+                  </div>
+               </div>
+               <div class="col-md-6 col-lg-3 py-4">
+                  <div
+                     class="smile-box bg-white shadow text-center rounded-1 position-relative py-4"
+                  >
+                     <h1>232</h1>
+                     <p>Happy Client</p>
+
+                     <i
+                        class="smile-icon bi bi-emoji-smile fs-3 text-danger shadow d-flex justify-content-center align-items-center bg-white rounded-circle position-absolute"
+                     ></i>
+                  </div>
+               </div>
+               <div class="col-md-6 col-lg-3 py-4">
+                  <div
+                     class="smile-box bg-white shadow text-center rounded-1 position-relative py-4"
+                  >
+                     <h1>232</h1>
+                     <p>Happy Client</p>
+
+                     <i
+                        class="smile-icon bi bi-emoji-smile fs-3 text-danger shadow d-flex justify-content-center align-items-center bg-white rounded-circle position-absolute"
+                     ></i>
+                  </div>
+               </div>
+               <div class="col-md-6 col-lg-3 py-4">
+                  <div
+                     class="smile-box bg-white shadow text-center rounded-1 position-relative py-4"
+                  >
+                     <h1>232</h1>
+                     <p>Happy Client</p>
+
+                     <i
+                        class="smile-icon bi bi-emoji-smile fs-3 text-danger shadow d-flex justify-content-center align-items-center bg-white rounded-circle position-absolute"
+                     ></i>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- smiley end -->
+
+         <!-- box -->
+         <div class="container-fluid boxes">
+            <div class="container">
+               <div
+                  class="row nav nav-pills mb-3"
+                  id="pills-tab"
+                  role="tablist"
+               >
+                  <div class="col-3 box-items nav-item" role="presentation">
+                     <div
+                        class="nav-link active boxes-con border rounded-0 border-secondary d-flex justify-content-center"
+                        style="width: 100%"
+                        id="pills-home-tab"
+                        data-bs-toggle="pill"
+                        data-bs-target="#pills-home"
+                        type="button"
+                        role="tab"
+                        aria-controls="pills-home"
+                        aria-selected="true"
+                     >
+                        <div class="d-flex gap-3 p-3">
+                           <i class="bi bi-binoculars fs-1 nav-icon"></i>
+
+                           <p
+                              class="w-75 text-start fs-6 fw-medium d-sm-none d-lg-block text-brea"
+                           >
+                              Modi sit est dela pireda nest
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-3 box-items nav-item" role="presentation">
+                     <div
+                        class="nav-link boxes-con border rounded-0 border-secondary d-flex justify-content-center"
+                        style="width: 100%"
+                        id="pills-profile-tab"
+                        data-bs-toggle="pill"
+                        data-bs-target="#pills-profile"
+                        type="button"
+                        role="tab"
+                        aria-controls="pills-profile"
+                        aria-selected="false"
+                     >
+                        <div class="d-flex gap-3 p-3">
+                           <i class="bi bi-box-seam fs-1 nav-icon"></i>
+
+                           <p
+                              class="w-75 text-start fs-6 fw-medium d-sm-none d-lg-block"
+                           >
+                              Unde praesenti mara setra le
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-3 box-items nav-item" role="presentation">
+                     <div
+                        class="nav-link boxes-con border rounded-0 border-secondary d-flex justify-content-center"
+                        style="width: 100%"
+                        id="pills-contact-tab"
+                        data-bs-toggle="pill"
+                        data-bs-target="#pills-contact"
+                        type="button"
+                        role="tab"
+                        aria-controls="pills-contact"
+                        aria-selected="false"
+                     >
+                        <div class="d-flex gap-3 p-3">
+                           <i class="bi bi-brightness-high fs-1 nav-icon"></i>
+
+                           <p
+                              class="w-75 text-start fs-6 fw-medium d-sm-none d-lg-block"
+                           >
+                              Pariatur explica nitro dela
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-3 box-items nav-item" role="presentation">
+                     <div
+                        class="nav-link boxes-con border rounded-0 border-secondary d-flex justify-content-center"
+                        style="width: 100%"
+                        id="pills-end-tab"
+                        data-bs-toggle="pill"
+                        data-bs-target="#pills-end"
+                        type="button"
+                        role="tab"
+                        aria-controls="pills-end"
+                        aria-selected="false"
+                     >
+                        <div class="d-flex gap-3 p-3">
+                           <i class="bi bi-command fs-1 nav-icon"></i>
+
+                           <p class="fs-6 fw-medium d-sm-none d-lg-block">
+                              <br />
+                              Nostrum qui dile node <br />
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="tab-content" id="pills-tabContent">
+                  <div
+                     class="tab-pane fade show active"
+                     id="pills-home"
+                     role="tabpanel"
+                     aria-labelledby="pills-home-tab"
+                     tabindex="0"
+                  >
+                     <div class="container py-5 my-5">
+                        <div class="box-main row">
+                           <div class="box-content col-lg-6 order-2 order-lg-1">
+                              <h3>
+                                 Neque exercitationem debitis soluta quos
+                                 debitis quo mollitia officia est
+                              </h3>
+                              <i>
+                                 Lorem ipsum dolor sit amet, consectetur
+                                 adipiscing elit, sed do eiusmod tempor
+                                 incididunt ut labore et dolore magna aliqua. </i
+                              ><br /><br />
+                              <ul class="list-group mb-3">
+                                 <li class="list-group-item d-flex gap-2">
+                                    <i
+                                       class="bi bi-check2-all fs-5 text-danger"
+                                    ></i>
+                                    <p>
+                                       Ullamco laboris nisi ut aliquip ex ea
+                                       commodo consequat.
+                                    </p>
+                                 </li>
+                                 <li class="list-group-item d-flex gap-2">
+                                    <i
+                                       class="bi bi-check2-all fs-5 text-danger"
+                                    ></i>
+                                    <p>
+                                       Duis aute irure dolor in reprehenderit in
+                                       voluptate velit.
+                                    </p>
+                                 </li>
+                                 <li class="list-group-item d-flex gap-2">
+                                    <i
+                                       class="bi bi-check2-all fs-5 text-danger"
+                                    ></i>
+                                    <p>
+                                       Provident mollitia neque rerum asperiores
+                                       dolores quos qui a. Ipsum neque dolor
+                                       voluptate nisi sed.
+                                    </p>
+                                 </li>
+                                 <li class="list-group-item d-flex gap-2">
+                                    <i
+                                       class="bi bi-check2-all fs-5 text-danger"
+                                    ></i>
+                                    <p>
+                                       Ullamco laboris nisi ut aliquip ex ea
+                                       commodo consequat. Duis aute irure dolor
+                                       in reprehenderit in voluptate trideta
+                                       storacalaperda mastiro eu fugiat nulla
+                                       pariatur.
+                                    </p>
+                                 </li>
+                              </ul>
+                              <p>
+                                 Ullamco laboris nisi ut aliquip ex ea commodo
+                                 consequat. Duis aute irure dolor in
+                                 reprehenderit in voluptate velit esse cillum
+                                 dolore eu fugiat nulla pariatur. Excepteur sint
+                                 occaecat cupidatat non proident, sunt in culpa
+                                 qui officia deserunt mollit anim id est laborum
+                              </p>
+                           </div>
+                           <div class="box-image col-lg-6 order-1 order-lg-2">
+                              <img
+                                 src="img/tabs-1.jpg"
+                                 alt=""
+                                 class="Sbanner-img"
+                              />
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div
+                     class="tab-pane fade"
+                     id="pills-profile"
+                     role="tabpanel"
+                     aria-labelledby="pills-profile-tab"
+                     tabindex="0"
+                  >
+                     <div class="container py-5 my-5">
+                        <div class="row">
+                           <div class="col-lg-6 order-2 order-lg-1">
+                              <h3>
+                                 Neque exercitationem debitis soluta quos
+                                 debitis quo mollitia officia est
+                              </h3>
+                              <p>
+                                 Ullamco laboris nisi ut aliquip ex ea commodo
+                                 consequat. Duis aute irure dolor in
+                                 reprehenderit in voluptate velit esse cillum
+                                 dolore eu fugiat nulla pariatur. Excepteur sint
+                                 occaecat cupidatat non proident, sunt in culpa
+                                 qui officia deserunt mollit anim id est laborum
+                                 <br /><br /><i>
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna
+                                    aliqua.</i
+                                 >
+                              </p>
+                              <ul class="list-group">
+                                 <li class="list-group-item d-flex gap-2">
+                                    <i
+                                       class="bi bi-check2-all fs-5 text-danger"
+                                    ></i>
+                                    <p>
+                                       Ullamco laboris nisi ut aliquip ex ea
+                                       commodo consequat.
+                                    </p>
+                                 </li>
+                                 <li class="list-group-item d-flex gap-2">
+                                    <i
+                                       class="bi bi-check2-all fs-5 text-danger"
+                                    ></i>
+                                    <p>
+                                       Duis aute irure dolor in reprehenderit in
+                                       voluptate velit.
+                                    </p>
+                                 </li>
+                                 <li class="list-group-item d-flex gap-2">
+                                    <i
+                                       class="bi bi-check2-all fs-5 text-danger"
+                                    ></i>
+                                    <p>
+                                       Provident mollitia neque rerum asperiores
+                                       dolores quos qui a. Ipsum neque dolor
+                                       voluptate nisi sed.
+                                    </p>
+                                 </li>
+                                 <li class="list-group-item d-flex gap-2">
+                                    <i
+                                       class="bi bi-check2-all fs-5 text-danger"
+                                    ></i>
+                                    <p>
+                                       Ullamco laboris nisi ut aliquip ex ea
+                                       commodo consequat. Duis aute irure dolor
+                                       in reprehenderit in voluptate trideta
+                                       storacalaperda mastiro eu fugiat nulla
+                                       pariatur.
+                                    </p>
+                                 </li>
+                              </ul>
+                           </div>
+                           <div class="col-lg-6 order-1 order-lg-2">
+                              <img
+                                 src="img/tabs-2.jpg"
+                                 alt=""
+                                 class="Sbanner-img"
+                              />
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div
+                     class="tab-pane fade"
+                     id="pills-contact"
+                     role="tabpanel"
+                     aria-labelledby="pills-contact-tab"
+                     tabindex="0"
+                  >
+                     <div class="container py-5 my-5">
+                        <div class="row">
+                           <div class="col-lg-6 order-2 order-lg-1">
+                              <h3>
+                                 Voluptatibus commodi ut accusamus ea
+                                 repudiandae ut autem dolor ut assumenda
+                              </h3>
+                              <p>
+                                 Ullamco laboris nisi ut aliquip ex ea commodo
+                                 consequat. Duis aute irure dolor in
+                                 reprehenderit in voluptate velit esse cillum
+                                 dolore eu fugiat nulla pariatur. Excepteur sint
+                                 occaecat cupidatat non proident, sunt in culpa
+                                 qui officia deserunt mollit anim id est laborum
+                                 <br />
+                              </p>
+                              <ul class="list-group mb-3">
+                                 <li class="list-group-item d-flex gap-2">
+                                    <i
+                                       class="bi bi-check2-all fs-5 text-danger"
+                                    ></i>
+                                    <p>
+                                       Ullamco laboris nisi ut aliquip ex ea
+                                       commodo consequat.
+                                    </p>
+                                 </li>
+                                 <li class="list-group-item d-flex gap-2">
+                                    <i
+                                       class="bi bi-check2-all fs-5 text-danger"
+                                    ></i>
+                                    <p>
+                                       Duis aute irure dolor in reprehenderit in
+                                       voluptate velit.
+                                    </p>
+                                 </li>
+
+                                 <li class="list-group-item d-flex gap-2">
+                                    <i
+                                       class="bi bi-check2-all fs-5 text-danger"
+                                    ></i>
+                                    <p>
+                                       Ullamco laboris nisi ut aliquip ex ea
+                                       commodo consequat. Duis aute irure dolor
+                                       in reprehenderit in voluptate trideta
+                                       storacalaperda mastiro eu fugiat nulla
+                                       pariatur.
+                                    </p>
+                                 </li>
+                              </ul>
+                              <i
+                                 >Lorem ipsum dolor sit amet, consectetur
+                                 adipiscing elit, sed do eiusmod tempor
+                                 incididunt ut labore et dolore magna aliqua.</i
+                              >
+                           </div>
+                           <div class="col-lg-6 order-1 order-lg-2">
+                              <img
+                                 src="img/tabs-3.jpg"
+                                 alt=""
+                                 class="Sbanner-img"
+                              />
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div
+                     class="tab-pane fade"
+                     id="pills-end"
+                     role="tabpanel"
+                     aria-labelledby="pills-end-tab"
+                     tabindex="0"
+                  >
+                     <div class="container py-5 my-5">
+                        <div class="row">
+                           <div class="col-lg-6 order-2 order-lg-1">
+                              <h3>
+                                 Omnis fugiat ea explicabo sunt dolorum
+                                 asperiores sequi inventore rerum
+                              </h3>
+                              <p>
+                                 Ullamco laboris nisi ut aliquip ex ea commodo
+                                 consequat. Duis aute irure dolor in
+                                 reprehenderit in voluptate velit esse cillum
+                                 dolore eu fugiat nulla pariatur. Excepteur sint
+                                 occaecat cupidatat non proident, sunt in culpa
+                                 qui officia deserunt mollit anim id est laborum
+                                 <br /><br /><i>
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna
+                                    aliqua.</i
+                                 >
+                              </p>
+                              <ul class="list-group">
+                                 <li class="list-group-item d-flex gap-2">
+                                    <i
+                                       class="bi bi-check2-all fs-5 text-danger"
+                                    ></i>
+                                    <p>
+                                       Ullamco laboris nisi ut aliquip ex ea
+                                       commodo consequat.
+                                    </p>
+                                 </li>
+
+                                 <li class="list-group-item d-flex gap-2">
+                                    <i
+                                       class="bi bi-check2-all fs-5 text-danger"
+                                    ></i>
+                                    <p>
+                                       Duis aute irure dolor in reprehenderit in
+                                       voluptate velit.
+                                    </p>
+                                 </li>
+                                 <li class="list-group-item d-flex gap-2">
+                                    <i
+                                       class="bi bi-check2-all fs-5 text-danger"
+                                    ></i>
+                                    <p>
+                                       Ullamco laboris nisi ut aliquip ex ea
+                                       commodo consequat. Duis aute irure dolor
+                                       in reprehenderit in voluptate trideta
+                                       storacalaperda mastiro eu fugiat nulla
+                                       pariatur.
+                                    </p>
+                                 </li>
+                              </ul>
+                           </div>
+                           <div class="col-lg-6 order-1 order-lg-2">
+                              <img
+                                 src="img/tabs-4.jpg"
+                                 alt=""
+                                 class="Sbanner-img"
+                              />
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- box end-->
+      </section>
+      <!-- section end -->
+
+      <!-- Services -->
+      <section class="Service bg-dark text-white mb-5">
+         <div class="Service-container pt-5">
+            <div
+               class="row d-flex justify-content-center m-0"
+               style="padding: 90px"
+            >
+               <div class="col-lg-12 text-center pb-5">
+                  <div style="width: 100%">
+                     <h1>Services</h1>
+                     <center>
+                        <div
+                           class="bg-danger lh-sm d-flex justify-content-center"
+                           style="width: 55px; height: 4px"
+                        ></div>
+                     </center>
+                     <br />
+
+                     <p style="line-height: 24px; font-size: 14px" class="fw-3">
+                        Necessitatibus eius consequatur ex aliquid fuga eum
+                        quidem sint consectetur velit
+                     </p>
+                  </div>
+               </div>
+               <div class="col-lg-6 col-md-6">
+                  <div class="Service-box d-flex gap-4 px-4 py-3 mb-3">
+                     <i class="bi bi-envelope fs-2 text-danger"></i>
+                     <div>
+                        <h4>lorem ipsum</h4>
+                        <p
+                           style="line-height: 24px; font-size: 14px"
+                           class="fw-3"
+                        >
+                           Voluptatum deleniti atque corrupti quos dolores et
+                           quas molestias excepturi sint occaecati cupiditate
+                           non provident
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-6 col-md-6">
+                  <div class="Service-box d-flex gap-4 px-4 py-3 mb-3">
+                     <i class="bi bi-journal-check fs-2 text-danger"></i>
+                     <div>
+                        <h4>lorem ipsum</h4>
+                        <p
+                           style="line-height: 24px; font-size: 14px"
+                           class="fw-3"
+                        >
+                           Voluptatum deleniti atque corrupti quos dolores et
+                           quas molestias excepturi sint occaecati cupiditate
+                           non provident
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-6 col-md-6">
+                  <div class="Service-box d-flex gap-4 px-4 py-3 mb-3">
+                     <i class="bi bi-bar-chart fs-2 text-danger"></i>
+                     <div>
+                        <h4>lorem ipsum</h4>
+                        <p
+                           style="line-height: 24px; font-size: 14px"
+                           class="fw-3"
+                        >
+                           Voluptatum deleniti atque corrupti quos dolores et
+                           quas molestias excepturi sint occaecati cupiditate
+                           non provident
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-6 col-md-6">
+                  <div class="Service-box d-flex gap-4 px-4 py-3 mb-3">
+                     <i class="bi bi-binoculars fs-2 text-danger"></i>
+                     <div>
+                        <h4>lorem ipsum</h4>
+                        <p
+                           style="line-height: 24px; font-size: 14px"
+                           class="fw-3"
+                        >
+                           Voluptatum deleniti atque corrupti quos dolores et
+                           quas molestias excepturi sint occaecati cupiditate
+                           non provident
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-6 col-md-6">
+                  <div class="Service-box d-flex gap-4 px-4 py-3 mb-3">
+                     <i class="bi bi-brightness-high fs-2 text-danger"></i>
+                     <div>
+                        <h4>lorem ipsum</h4>
+                        <p
+                           style="line-height: 24px; font-size: 14px"
+                           class="fw-3"
+                        >
+                           Voluptatum deleniti atque corrupti quos dolores et
+                           quas molestias excepturi sint occaecati cupiditate
+                           non provident
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-6 col-md-6">
+                  <div class="Service-box d-flex gap-4 px-4 py-3 mb-3">
+                     <i class="bi bi-calendar4-week fs-2 text-danger"></i>
+                     <div>
+                        <h4>lorem ipsum</h4>
+                        <p
+                           style="line-height: 24px; font-size: 14px"
+                           class="fw-3"
+                        >
+                           Voluptatum deleniti atque corrupti quos dolores et
+                           quas molestias excepturi sint occaecati cupiditate
+                           non provident
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Seervices end-->
+
+      <!-- Portfolio -->
+      <section class="Portfolio py-5">
+         <div class="container portfolio-conta pt-5">
+            <div class="row d-flex justify-content-evenly">
+               <div class="col-lg-12 text-center">
+                  <h2 class="text-uppercase">Portfolio</h2>
+                  <center>
+                     <div
+                        class="bg-danger lh-sm d-flex justify-content-center"
+                        style="width: 55px; height: 4px"
+                     ></div>
+                  </center>
+                  <br />
+                  <p class="mb-5">
+                     Necessitatibus eius consequatur ex aliquid fuga eum quidem
+                     sint consectetur velit
+                  </p>
+               </div>
+               <div class="col-lg-12">
+                  <div class="container-fluid">
+                     <ul
+                        class="fw-bold d-flex justify-content-center gap-3"
+                        style="
+                           list-style-type: none;
+                           :hover {
+                              color: red;
+                           }
+                        "
+                     >
+                        <li class="nav-item">
+                           <a class="nav-link text-danger" href="#">All</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="#">App</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="#">product</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="#">Branding</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="#">Books</a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-6 mb-4">
+                  <div class="portfolio-img p-3">
+                     <div class="portfolio-content">
+                        <p class="bg-danger" style="width: fit-content">
+                           App 1
+                        </p>
+                        <div class="con1">
+                           <div
+                              class="portfolio-icon d-flex justify-content-center gap-3"
+                           >
+                              <i class="bi bi-zoom-in text-center fs-2 p-i"></i>
+                              <i class="bi bi-link-45deg fs-1 p-i"></i>
+                           </div>
+                           <p class="text-white fs-6 text-center">
+                              Lorem ipsum, dolor sit amet consectetur
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-6 mb-4">
+                  <div class="portfolio-img2 p-3">
+                     <div class="portfolio-content">
+                        <p class="bg-danger" style="width: fit-content">
+                           App 1
+                        </p>
+                        <div class="con1">
+                           <div
+                              class="portfolio-icon d-flex justify-content-center gap-3"
+                           >
+                              <i class="bi bi-zoom-in text-center fs-2 p-i"></i>
+                              <i class="bi bi-link-45deg fs-1 p-i"></i>
+                           </div>
+                           <p class="text-white fs-6 text-center">
+                              Lorem ipsum, dolor sit amet consectetur
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-6 mb-4">
+                  <div class="portfolio-img3 p-3">
+                     <div class="portfolio-content">
+                        <p class="bg-danger" style="width: fit-content">
+                           App 1
+                        </p>
+                        <div class="con1">
+                           <div
+                              class="portfolio-icon d-flex justify-content-center gap-3"
+                           >
+                              <i class="bi bi-zoom-in text-center fs-2 p-i"></i>
+                              <i class="bi bi-link-45deg fs-1 p-i"></i>
+                           </div>
+                           <p class="text-white fs-6 text-center">
+                              Lorem ipsum, dolor sit amet consectetur
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-6 mb-4">
+                  <div class="portfolio-img4 p-3">
+                     <div class="portfolio-content">
+                        <p class="bg-danger" style="width: fit-content">
+                           App 1
+                        </p>
+                        <div class="con1">
+                           <div
+                              class="portfolio-icon d-flex justify-content-center gap-3"
+                           >
+                              <i class="bi bi-zoom-in text-center fs-2 p-i"></i>
+                              <i class="bi bi-link-45deg fs-1 p-i"></i>
+                           </div>
+                           <p class="text-white fs-6 text-center">
+                              Lorem ipsum, dolor sit amet consectetur
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-6 mb-4">
+                  <div class="portfolio-img5 p-3">
+                     <div class="portfolio-content">
+                        <p class="bg-danger" style="width: fit-content">
+                           App 1
+                        </p>
+                        <div class="con1">
+                           <div
+                              class="portfolio-icon d-flex justify-content-center gap-3"
+                           >
+                              <i class="bi bi-zoom-in text-center fs-2 p-i"></i>
+                              <i class="bi bi-link-45deg fs-1 p-i"></i>
+                           </div>
+                           <p class="text-white fs-6 text-center">
+                              Lorem ipsum, dolor sit amet consectetur
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-6 mb-4">
+                  <div class="portfolio-img6 p-3">
+                     <div class="portfolio-content">
+                        <p class="bg-danger" style="width: fit-content">
+                           App 1
+                        </p>
+                        <div class="con1">
+                           <div
+                              class="portfolio-icon d-flex justify-content-center gap-3"
+                           >
+                              <i class="bi bi-zoom-in text-center fs-2 p-i"></i>
+                              <i class="bi bi-link-45deg fs-1 p-i"></i>
+                           </div>
+                           <p class="text-white fs-6 text-center">
+                              Lorem ipsum, dolor sit amet consectetur
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-6 mb-4">
+                  <div class="portfolio-img7 p-3">
+                     <div class="portfolio-content">
+                        <p class="bg-danger" style="width: fit-content">
+                           App 1
+                        </p>
+                        <div class="con1">
+                           <div
+                              class="portfolio-icon d-flex justify-content-center gap-3"
+                           >
+                              <i class="bi bi-zoom-in text-center fs-2 p-i"></i>
+                              <i class="bi bi-link-45deg fs-1 p-i"></i>
+                           </div>
+                           <p class="text-white fs-6 text-center">
+                              Lorem ipsum, dolor sit amet consectetur
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-6 mb-4">
+                  <div class="portfolio-img8 p-3">
+                     <div class="portfolio-content">
+                        <p class="bg-danger" style="width: fit-content">
+                           App 1
+                        </p>
+                        <div class="con1">
+                           <div
+                              class="portfolio-icon d-flex justify-content-center gap-3"
+                           >
+                              <i class="bi bi-zoom-in text-center fs-2 p-i"></i>
+                              <i class="bi bi-link-45deg fs-1 p-i"></i>
+                           </div>
+                           <p class="text-white fs-6 text-center">
+                              Lorem ipsum, dolor sit amet consectetur
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-6 mb-4">
+                  <div class="portfolio-img9 p-3">
+                     <div class="portfolio-content">
+                        <p class="bg-danger" style="width: fit-content">
+                           App 1
+                        </p>
+                        <div class="con1">
+                           <div
+                              class="portfolio-icon d-flex justify-content-center gap-3"
+                           >
+                              <i class="bi bi-zoom-in text-center fs-2 p-i"></i>
+                              <i class="bi bi-link-45deg fs-1 p-i"></i>
+                           </div>
+                           <p class="text-white fs-6 text-center">
+                              Lorem ipsum, dolor sit amet consectetur
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Portfolio end -->
+
+      <!-- Testimonials -->
+      <section class="container-fluid mb-5 py-5">
+         <div class="container">
+            <div class="row d-flex justify-content-evenly">
+               <div class="col-lg-12 text-center mb-5">
+                  <h2 class="text-uppercase">Testimonials</h2>
+                  <center>
+                     <div
+                        class="bg-danger lh-sm d-flex justify-content-center"
+                        style="width: 55px; height: 4px"
+                     ></div>
+                  </center>
+                  <p class="mb-5 mt-3">
+                     Necessitatibus eius consequatur ex aliquid fuga eum quidem
+                     sint consectetur velit
+                  </p>
+               </div>
+
+               <div class="carousel-2 owl-carousel owl-theme">
+                  <div class="Testimonials-card px-3 py-5 shadow mb-5 rounded">
+                     <img
+                        src="img/testimonials/testimonials-1.jpg"
+                        alt="oops"
+                        class="card-img rounded-circle mb-2"
+                     />
+                     <p class="fs-5 fw-bold">
+                        Saul Goodman <br />
+                        <span class="fs-6 text-secondary fw-medium">
+                           Ceo & Founder</span
+                        ><br />
+                        <span class="d-flex gap-1 fs-6">
+                           <i class="bi bi-star-fill text-warning"></i
+                           ><i class="bi bi-star-fill text-warning"></i
+                           ><i class="bi bi-star-fill text-warning"></i
+                           ><i class="bi bi-star-fill text-warning"></i
+                           ><i class="bi bi-star-fill text-warning"></i>
+                        </span>
+                     </p>
+
+                     <p>
+                        <span class="fs-4 text-danger"
+                           ><i class="bi bi-quote"></i
+                           ><i class="bi bi-quote"></i
+                        ></span>
+                        Proin iaculis purus consequat sem cure digni ssim donec
+                        porttitora entum suscipit rhoncus. Accusantium quam,
+                        ultricies eget id, aliquam eget nibh et. Maecen aliquam,
+                        risus at semper.
+                        <span class="fs-4 text-danger"
+                           ><i class="bi bi-quote"></i
+                           ><i class="bi bi-quote"></i
+                        ></span>
+                     </p>
+                  </div>
+                  <div class="Testimonials-card px-3 py-5 shadow mb-5 rounded">
+                     <img
+                        src="img/testimonials/testimonials-2.jpg"
+                        alt="oops"
+                        class="card-img rounded-circle mb-2"
+                     />
+                     <p class="fs-5 fw-bold">
+                        Saul Goodman <br />
+                        <span class="fs-6 text-secondary fw-medium">
+                           Ceo & Founder</span
+                        ><br />
+                        <span class="d-flex gap-1 fs-6">
+                           <i class="bi bi-star-fill text-warning"></i
+                           ><i class="bi bi-star-fill text-warning"></i
+                           ><i class="bi bi-star-fill text-warning"></i
+                           ><i class="bi bi-star-fill text-warning"></i
+                           ><i class="bi bi-star-fill text-warning"></i>
+                        </span>
+                     </p>
+
+                     <p>
+                        <span class="fs-4 text-danger"
+                           ><i class="bi bi-quote"></i
+                           ><i class="bi bi-quote"></i
+                        ></span>
+                        Proin iaculis purus consequat sem cure digni ssim donec
+                        porttitora entum suscipit rhoncus. Accusantium quam,
+                        ultricies eget id, aliquam eget nibh et. Maecen aliquam,
+                        risus at semper.
+                        <span class="fs-4 text-danger"
+                           ><i class="bi bi-quote"></i
+                           ><i class="bi bi-quote"></i
+                        ></span>
+                     </p>
+                  </div>
+                  <div class="Testimonials-card px-3 py-5 shadow mb-5 rounded">
+                     <img
+                        src="img/testimonials/testimonials-3.jpg"
+                        alt="oops"
+                        class="card-img rounded-circle mb-2"
+                     />
+                     <p class="fs-5 fw-bold">
+                        Saul Goodman <br />
+                        <span class="fs-6 text-secondary fw-medium">
+                           Ceo & Founder</span
+                        ><br />
+                        <span class="d-flex gap-1 fs-6">
+                           <i class="bi bi-star-fill text-warning"></i
+                           ><i class="bi bi-star-fill text-warning"></i
+                           ><i class="bi bi-star-fill text-warning"></i
+                           ><i class="bi bi-star-fill text-warning"></i
+                           ><i class="bi bi-star-fill text-warning"></i>
+                        </span>
+                     </p>
+
+                     <p>
+                        <span class="fs-4 text-danger"
+                           ><i class="bi bi-quote"></i
+                           ><i class="bi bi-quote"></i
+                        ></span>
+                        Proin iaculis purus consequat sem cure digni ssim donec
+                        porttitora entum suscipit rhoncus. Accusantium quam,
+                        ultricies eget id, aliquam eget nibh et. Maecen aliquam,
+                        risus at semper.
+                        <span class="fs-4 text-danger"
+                           ><i class="bi bi-quote"></i
+                           ><i class="bi bi-quote"></i
+                        ></span>
+                     </p>
+                  </div>
+                  <div class="Testimonials-card px-3 py-5 shadow mb-5 rounded">
+                     <img
+                        src="img/testimonials/testimonials-4.jpg"
+                        alt="oops"
+                        class="card-img rounded-circle mb-2"
+                     />
+                     <p class="fs-5 fw-bold">
+                        Saul Goodman <br />
+                        <span class="fs-6 text-secondary fw-medium">
+                           Ceo & Founder</span
+                        ><br />
+                        <span class="d-flex gap-1 fs-6">
+                           <i class="bi bi-star-fill text-warning"></i
+                           ><i class="bi bi-star-fill text-warning"></i
+                           ><i class="bi bi-star-fill text-warning"></i
+                           ><i class="bi bi-star-fill text-warning"></i
+                           ><i class="bi bi-star-fill text-warning"></i>
+                        </span>
+                     </p>
+
+                     <p>
+                        <span class="fs-4 text-danger"
+                           ><i class="bi bi-quote"></i
+                           ><i class="bi bi-quote"></i
+                        ></span>
+                        Proin iaculis purus consequat sem cure digni ssim donec
+                        porttitora entum suscipit rhoncus. Accusantium quam,
+                        ultricies eget id, aliquam eget nibh et. Maecen aliquam,
+                        risus at semper.
+                        <span class="fs-4 text-danger"
+                           ><i class="bi bi-quote"></i
+                           ><i class="bi bi-quote"></i
+                        ></span>
+                     </p>
+                  </div>
+                  <div class="Testimonials-card px-3 py-5 shadow mb-5 rounded">
+                     <img
+                        src="img/testimonials/testimonials-5.jpg"
+                        alt="oops"
+                        class="card-img rounded-circle mb-2"
+                     />
+                     <p class="fs-5 fw-bold">
+                        Saul Goodman <br />
+                        <span class="fs-6 text-secondary fw-medium">
+                           Ceo & Founder</span
+                        ><br />
+                        <span class="d-flex gap-1 fs-6">
+                           <i class="bi bi-star-fill text-warning"></i
+                           ><i class="bi bi-star-fill text-warning"></i
+                           ><i class="bi bi-star-fill text-warning"></i
+                           ><i class="bi bi-star-fill text-warning"></i
+                           ><i class="bi bi-star-fill text-warning"></i>
+                        </span>
+                     </p>
+
+                     <p>
+                        <span class="fs-4 text-danger"
+                           ><i class="bi bi-quote"></i
+                           ><i class="bi bi-quote"></i
+                        ></span>
+                        Proin iaculis purus consequat sem cure digni ssim donec
+                        porttitora entum suscipit rhoncus. Accusantium quam,
+                        ultricies eget id, aliquam eget nibh et. Maecen aliquam,
+                        risus at semper.
+                        <span class="fs-4 text-danger"
+                           ><i class="bi bi-quote"></i
+                           ><i class="bi bi-quote"></i
+                        ></span>
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Testimonials end-->
+
+      <!-- Pricing -->
+      <section class="Pricing container-fluid my-5 py-4 bg-dark">
+         <div class="container py-5 p-container">
+            <div class="row d-flex justify-content-evenly text-white pt-5">
+               <div class="col-lg-12 text-center mb-5">
+                  <h2 class="text-uppercase">Pricing</h2>
+                  <center>
+                     <div
+                        class="bg-danger lh-sm d-flex justify-content-center"
+                        style="width: 55px; height: 4px"
+                     ></div>
+                  </center>
+                  <p class="pt-3">
+                     Necessitatibus eius consequatur ex aliquid fuga eum quidem
+                     sint consectetur velit
+                  </p>
+               </div>
+               <div
+                  class="col-lg-4 bg-secondary bg-opacity-25 p-5 mb-5"
+                  style="height: fit-content"
+               >
+                  <h5>Free Plan</h5>
+                  <p class="text-danger fs-3">
+                     $
+                     <sub class="fs-1"
+                        >0 <span class="text-secondary fs-6">/ month</span></sub
+                     >
+                  </p>
+                  <ul class="p-list text-secondary py-4">
+                     <li class="p-item d-flex gap-2">
+                        <i class="bi bi-check-lg text-success fs-5"></i>
+                        <p>Quam adipiscing vitae proin</p>
+                     </li>
+                     <li class="p-item d-flex gap-2">
+                        <i class="bi bi-check-lg text-success fs-5"></i>
+                        <p>Nec feugiat nisl pretium</p>
+                     </li>
+                     <li class="p-item d-flex gap-2">
+                        <i class="bi bi-check-lg text-success fs-5"></i>
+                        <p>Nulla at volutpat diam uteera</p>
+                     </li>
+                     <li class="p-item d-flex gap-2">
+                        <i class="bi bi-x-lg fs-6 fw-bold"></i>
+                        <p class="text-decoration-line-through">
+                           Pharetra massa massa ultricies
+                        </p>
+                     </li>
+                     <li class="p-item d-flex gap-2">
+                        <i class="bi bi-x-lg fs-6 fw-bold"></i>
+                        <p class="text-decoration-line-through">
+                           Massa ultricies mi quis hendrerit
+                        </p>
+                     </li>
+                  </ul>
+
+                  <div class="d-flex justify-content-center">
+                     <form action="">
+                        <button
+                           type="submit"
+                           class="btn btn-dark border border-secondary px-4 py-2 rounded-1"
+                        >
+                           Buy Now
+                        </button>
+                     </form>
+                  </div>
+               </div>
+               <div
+                  class="col-lg-4 bg-danger p-5 mb-5"
+                  style="height: fit-content; transform: scale(1, 1.1)"
+               >
+                  <h5>Business Plan</h5>
+                  <p class="text-white fs-3">
+                     $
+                     <sub class="fs-1"
+                        >0 <span class="text-white fs-6">/ month</span></sub
+                     >
+                  </p>
+                  <ul class="p-list text-white py-4">
+                     <li class="p-item d-flex gap-2">
+                        <i class="bi bi-check-lg text-success fs-5"></i>
+                        <p>Quam adipiscing vitae proin</p>
+                     </li>
+                     <li class="p-item d-flex gap-2">
+                        <i class="bi bi-check-lg text-success fs-5"></i>
+                        <p>Nec feugiat nisl pretium</p>
+                     </li>
+                     <li class="p-item d-flex gap-2">
+                        <i class="bi bi-check-lg text-success fs-5"></i>
+                        <p>Nulla at volutpat diam uteera</p>
+                     </li>
+                     <li class="p-item d-flex gap-2">
+                        <i class="bi bi-check-lg text-success fs-5"></i>
+                        <p>Pharetra massa massa ultricies</p>
+                     </li>
+                     <li class="p-item d-flex gap-2">
+                        <i class="bi bi-check-lg text-success fs-5"></i>
+                        <p>Massa ultricies mi quis hendrerit</p>
+                     </li>
+                  </ul>
+
+                  <div class="d-flex justify-content-center">
+                     <form action="">
+                        <button
+                           type="submit"
+                           class="btn btn-danger border border-secondary px-4 py-2 rounded-1"
+                        >
+                           Buy Now
+                        </button>
+                     </form>
+                  </div>
+               </div>
+               <div
+                  class="col-lg-4 bg-secondary bg-opacity-25 p-5 mb-5"
+                  style="height: fit-content"
+               >
+                  <h5>Developer Plan</h5>
+                  <p class="text-danger fs-3">
+                     $
+                     <sub class="fs-1"
+                        >0 <span class="text-secondary fs-6">/ month</span></sub
+                     >
+                  </p>
+                  <ul class="p-list text-secondary py-4">
+                     <li class="p-item d-flex gap-2">
+                        <i class="bi bi-check-lg text-success fs-5"></i>
+                        <p>Quam adipiscing vitae proin</p>
+                     </li>
+                     <li class="p-item d-flex gap-2">
+                        <i class="bi bi-check-lg text-success fs-5"></i>
+                        <p>Nec feugiat nisl pretium</p>
+                     </li>
+                     <li class="p-item d-flex gap-2">
+                        <i class="bi bi-check-lg text-success fs-5"></i>
+                        <p>Nulla at volutpat diam uteera</p>
+                     </li>
+                     <li class="p-item d-flex gap-2">
+                        <i class="bi bi-check-lg text-success fs-5"></i>
+                        <p>Pharetra massa massa ultricies</p>
+                     </li>
+                     <li class="p-item d-flex gap-2">
+                        <i class="bi bi-check-lg text-success fs-5"></i>
+                        <p>Massa ultricies mi quis hendrerit</p>
+                     </li>
+                  </ul>
+
+                  <div class="d-flex justify-content-center">
+                     <form action="">
+                        <button
+                           type="submit"
+                           class="btn btn-dark border border-secondary px-4 py-2 rounded-1"
+                        >
+                           Buy Now
+                        </button>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Pricing end-->
+
+      <!-- Question -->
+      <section class="container-fluid my-5 py-5">
+         <div class="container">
+            <div class="heading-question text-center mb-5">
+               <h2 class="text-uppercase">Frequently Asked Questions</h2>
+               <center>
+                  <div
+                     class="bg-danger lh-sm d-flex justify-content-center"
+                     style="width: 55px; height: 4px"
+                  ></div>
+               </center>
+               <p class="pt-3">
+                  Necessitatibus eius consequatur ex aliquid fuga eum quidem
+                  sint consectetur velit
+               </p>
+            </div>
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+               <div class="accordion-item my-3 border">
+                  <h2 class="accordion-header">
+                     <button
+                        class="accordion-button py-4 rounded-1"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseOne"
+                        aria-expanded="true"
+                        aria-controls="panelsStayOpen-collapseOne"
+                     >
+                        Non consectetur a erat nam at lectus urna duis?
+                     </button>
+                  </h2>
+                  <div
+                     id="panelsStayOpen-collapseOne"
+                     class="accordion-collapse collapse show"
+                  >
+                     <div class="accordion-body">
+                        Feugiat pretium nibh ipsum consequat. Tempus iaculis
+                        urna id volutpat lacus laoreet non curabitur gravida.
+                        Venenatis lectus magna fringilla urna porttitor rhoncus
+                        dolor purus non.
+                     </div>
+                  </div>
+               </div>
+               <div class="accordion-item my-3 border">
+                  <h2 class="accordion-header">
+                     <button
+                        class="accordion-button py-4 border rounded-1 collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseTwo"
+                        aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseTwo"
+                     >
+                        Feugiat scelerisque varius morbi enim nunc faucibus?
+                     </button>
+                  </h2>
+                  <div
+                     id="panelsStayOpen-collapseTwo"
+                     class="accordion-collapse collapse"
+                  >
+                     <div class="accordion-body">
+                        Dolor sit amet consectetur adipiscing elit pellentesque
+                        habitant morbi. Id interdum velit laoreet id donec
+                        ultrices. Fringilla phasellus faucibus scelerisque
+                        eleifend donec pretium. Est pellentesque elit
+                        ullamcorper dignissim. Mauris ultrices eros in cursus
+                        turpis massa tincidunt dui.
+                     </div>
+                  </div>
+               </div>
+               <div class="accordion-item my-3 border">
+                  <h2 class="accordion-header">
+                     <button
+                        class="accordion-button py-4 border rounded-1 collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseThree"
+                        aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseThree"
+                     >
+                        Dolor sit amet consectetur adipiscing elit pellentesque?
+                     </button>
+                  </h2>
+                  <div
+                     id="panelsStayOpen-collapseThree"
+                     class="accordion-collapse collapse"
+                  >
+                     <div class="accordion-body">
+                        Eleifend mi in nulla posuere sollicitudin aliquam
+                        ultrices sagittis orci. Faucibus pulvinar elementum
+                        integer enim. Sem nulla pharetra diam sit amet nisl
+                        suscipit. Rutrum tellus pellentesque eu tincidunt.
+                        Lectus urna duis convallis convallis tellus. Urna
+                        molestie at elementum eu facilisis sed odio morbi quis
+                     </div>
+                  </div>
+               </div>
+               <div class="accordion-item my-3 border">
+                  <h2 class="accordion-header">
+                     <button
+                        class="accordion-button py-4 border rounded-1 collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapsefour"
+                        aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapsefour"
+                     >
+                        Ac odio tempor orci dapibus. Aliquam eleifend mi in
+                        nulla?
+                     </button>
+                  </h2>
+                  <div
+                     id="panelsStayOpen-collapsefour"
+                     class="accordion-collapse collapse"
+                  >
+                     <div class="accordion-body">
+                        Dolor sit amet consectetur adipiscing elit pellentesque
+                        habitant morbi. Id interdum velit laoreet id donec
+                        ultrices. Fringilla phasellus faucibus scelerisque
+                        eleifend donec pretium. Est pellentesque elit
+                        ullamcorper dignissim. Mauris ultrices eros in cursus
+                        turpis massa tincidunt dui.
+                     </div>
+                  </div>
+               </div>
+               <div class="accordion-item my-3 border">
+                  <h2 class="accordion-header">
+                     <button
+                        class="accordion-button py-4 border rounded-1 collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapsefive"
+                        aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapsefive"
+                     >
+                        empus quam pellentesque nec nam aliquam sem et tortor?
+                     </button>
+                  </h2>
+                  <div
+                     id="panelsStayOpen-collapsefive"
+                     class="accordion-collapse collapse"
+                  >
+                     <div class="accordion-body">
+                        Molestie a iaculis at erat pellentesque adipiscing
+                        commodo. Dignissim suspendisse in est ante in. Nunc vel
+                        risus commodo viverra maecenas accumsan. Sit amet nisl
+                        suscipit adipiscing bibendum est. Purus gravida quis
+                        blandit turpis cursus in
+                     </div>
+                  </div>
+               </div>
+               <div class="accordion-item my-3 border">
+                  <h2 class="accordion-header">
+                     <button
+                        class="accordion-button py-4 border rounded-1 collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapsesix"
+                        aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapsesix"
+                     >
+                        Perspiciatis quod quo quos nulla quo illum ullam?
+                     </button>
+                  </h2>
+                  <div
+                     id="panelsStayOpen-collapsesix"
+                     class="accordion-collapse collapse"
+                  >
+                     <div class="accordion-body">
+                        Enim ea facilis quaerat voluptas quidem et dolorem. Quis
+                        et consequatur non sed in suscipit sequi. Distinctio
+                        ipsam dolore et.
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Question end -->
+
+      <!-- Team -->
+      <section class="Team container-fluid my-5 pt-2 pb-5 bg-dark">
+         <div class="container py-5 team-container">
+            <div class="row d-flex justify-content-evenly text-white pt-5">
+               <div class="col-lg-12 text-center mb-5">
+                  <h2 class="text-uppercase">Team</h2>
+                  <center>
+                     <div
+                        class="bg-danger lh-sm d-flex justify-content-center"
+                        style="width: 55px; height: 4px"
+                     ></div>
+                  </center>
+                  <br />
+                  <p>
+                     Necessitatibus eius consequatur ex aliquid fuga eum quidem
+                     sint consectetur velit
+                  </p>
+               </div>
+               <div class="col-lg-3 team-col">
+                  <div
+                     class="border rounded-2 team-border pb-3"
+                     style="background-color: rgb(58, 57, 57)"
+                  >
+                     <div
+                        class="team-img team-img1 d-flex align-items-end rounded-2 justify-content-center"
+                     >
+                        <div
+                           class="icon-box d-flex gap-2 p-3 justify-content-center"
+                        >
+                           <i
+                              class="team-icon border rounded-1 fs-6 text-white bi bi-twitter-x"
+                           ></i>
+                           <i
+                              class="team-icon border rounded-1 fs-6 text-white bi bi-facebook"
+                           ></i
+                           ><i
+                              class="team-icon border rounded-1 fs-6 text-white bi bi-instagram"
+                           ></i>
+                           <i
+                              class="team-icon border rounded-1 fs-6 text-white bi bi-linkedin"
+                           ></i>
+                        </div>
+                     </div>
+                     <div class="px-3">
+                        <h5 class="pt-3">Walter White</h5>
+                        <p class="fw-lighter">Chief Executive Officer</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-3 team-col">
+                  <div
+                     class="border rounded-2 team-border pb-3"
+                     style="background-color: rgb(58, 57, 57)"
+                  >
+                     <div
+                        class="team-img team-img2 d-flex align-items-end rounded-2 justify-content-center"
+                     >
+                        <div
+                           class="icon-box d-flex gap-2 p-3 justify-content-center"
+                        >
+                           <i
+                              class="team-icon border rounded-1 fs-6 text-white bi bi-twitter-x"
+                           ></i>
+                           <i
+                              class="team-icon border rounded-1 fs-6 text-white bi bi-facebook"
+                           ></i
+                           ><i
+                              class="team-icon border rounded-1 fs-6 text-white bi bi-instagram"
+                           ></i>
+                           <i
+                              class="team-icon border rounded-1 fs-6 text-white bi bi-linkedin"
+                           ></i>
+                        </div>
+                     </div>
+
+                     <div class="px-3">
+                        <h5 class="pt-3">Walter White</h5>
+                        <p class="fw-lighter">Chief Executive Officer</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-3 team-col">
+                  <div
+                     class="border rounded-2 team-border pb-3"
+                     style="background-color: rgb(58, 57, 57)"
+                  >
+                     <div
+                        class="team-img team-img3 d-flex align-items-end rounded-2 justify-content-center"
+                     >
+                        <div
+                           class="icon-box d-flex gap-2 p-3 justify-content-center"
+                        >
+                           <i
+                              class="team-icon border rounded-1 fs-6 text-white bi bi-twitter-x"
+                           ></i>
+                           <i
+                              class="team-icon border rounded-1 fs-6 text-white bi bi-facebook"
+                           ></i
+                           ><i
+                              class="team-icon border rounded-1 fs-6 text-white bi bi-instagram"
+                           ></i>
+                           <i
+                              class="team-icon border rounded-1 fs-6 text-white bi bi-linkedin"
+                           ></i>
+                        </div>
+                     </div>
+                     <div class="px-3">
+                        <h5 class="pt-3">Walter White</h5>
+                        <p class="fw-lighter">Chief Executive Officer</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-3 team-col">
+                  <div
+                     class="border rounded-2 team-border pb-3"
+                     style="background-color: rgb(58, 57, 57)"
+                  >
+                     <div
+                        class="team-img team-img4 d-flex align-items-end rounded-2 justify-content-center"
+                     >
+                        <div
+                           class="icon-box d-flex gap-2 p-3 justify-content-center"
+                        >
+                           <i
+                              class="team-icon border rounded-1 fs-6 text-white bi bi-twitter-x"
+                           ></i>
+                           <i
+                              class="team-icon border rounded-1 fs-6 text-white bi bi-facebook"
+                           ></i
+                           ><i
+                              class="team-icon border rounded-1 fs-6 text-white bi bi-instagram"
+                           ></i>
+                           <i
+                              class="team-icon border rounded-1 fs-6 text-white bi bi-linkedin"
+                           ></i>
+                        </div>
+                     </div>
+                     <div class="px-3">
+                        <h5 class="pt-3">Walter White</h5>
+                        <p class="fw-lighter">Chief Executive Officer</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- team end -->
+
+      <!-- Contact -->
+      <section class="Team container-fluid my-5">
+         <div class="container text-center team-container">
+            <h2 class="text-uppercase mt-5">Contact</h2>
+            <center>
+               <div
+                  class="bg-danger lh-sm d-flex justify-content-center"
+                  style="width: 55px; height: 4px"
+               ></div>
+            </center>
+            <br />
+            <p class="mb-5">
+               Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+               consectetur velit
+            </p>
+            <div class="p-5">
+               <div class="row align-items-start">
+                  <div class="col-lg-6">
+                     <div>
+                        <div class="row align-items-start">
+                           <div class="col-lg-12">
+                              <div class="shadow mb-4 p-3">
+                                 <div>
+                                    <div class="d-flex justify-content-center">
+                                       <div
+                                          class="rounded-circle d-flex align-items-center justify-content-center"
+                                          style="
+                                             width: 60px;
+                                             height: 60px;
+                                             border: dotted 2px red !important;
+                                          "
+                                       >
+                                          <i class="bi bi-geo-alt"></i>
+                                       </div>
+                                    </div>
+                                    <h5 class="mt-4 text-center">Address</h5>
+                                    <p>A108 Adam Street, New York, NY 535022</p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-lg-6">
+                              <div class="shadow p-3">
+                                 <div>
+                                    <div class="d-flex justify-content-center">
+                                       <div
+                                          class="border border-danger rounded-circle d-flex align-items-center justify-content-center"
+                                          style="
+                                             width: 60px;
+                                             height: 60px;
+                                             border: dotted 2px red !important;
+                                          "
+                                       >
+                                          <i class="bi bi-geo-alt"></i>
+                                       </div>
+                                    </div>
+                                    <h5 class="mt-4 text-center">Call Us</h5>
+                                    <p class="text-center">+1 5589 55488 55</p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-lg-6">
+                              <div class="shadow p-3">
+                                 <div>
+                                    <div class="d-flex justify-content-center">
+                                       <div
+                                          class="border border-danger rounded-circle d-flex align-items-center justify-content-center"
+                                          style="
+                                             width: 60px;
+                                             height: 60px;
+                                             border: dotted 2px red !important;
+                                          "
+                                       >
+                                          <i class="bi bi-geo-alt"></i>
+                                       </div>
+                                    </div>
+                                    <h5 class="mt-4 text-center">Email Us</h5>
+                                    <p class="text-center">info@example.com</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="shadow p-4">
+                        <div class="container overflow-hidden">
+                           <form action="">
+                              <div class="row">
+                                 <div class="col-lg-6 mb-4">
+                                    <input
+                                       class="p-2"
+                                       type="text"
+                                       placeholder=" Your Name"
+                                       style="width: 100%"
+                                    />
+                                 </div>
+                                 <div class="col-lg-6 mb-4">
+                                    <input
+                                       class="p-2"
+                                       type="email"
+                                       placeholder=" Your Mail"
+                                       style="width: 100%"
+                                    />
+                                 </div>
+                                 <div class="col-lg-12 mb-4">
+                                    <input
+                                       class="p-2"
+                                       type="text"
+                                       placeholder=" Subject"
+                                       style="width: 100%"
+                                    />
+                                 </div>
+                                 <div class="col-lg-12 mb-4">
+                                    <textarea
+                                       class="p-1"
+                                       name=""
+                                       id=""
+                                       placeholder=" Message"
+                                       rows="5"
+                                       style="width: 100%"
+                                    ></textarea>
+                                 </div>
+
+                                 <div
+                                    class="col-lg-12 d-flex justify-content-center"
+                                 >
+                                    <button
+                                       type="submit"
+                                       class="btn btn-danger rounded-pill px-4 py-2 my-2"
+                                    >
+                                       Send Message
+                                    </button>
+                                 </div>
+                              </div>
+                           </form>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Contact end-->
+
+      <!-- footer -->
+      <footer class="footer bg-dark text-white">
+         <div class="container pt-5">
+            <div class="row">
+               <div class="col-lg-4 pb-4">
+                  <h3 class="pb-4">Presento</h3>
+                  <p>
+                     A108 Adam Street <br />
+
+                     New York, NY 535022
+                  </p>
+                  <p>
+                     Phone: +1 5589 55488 55 <br />
+
+                     Email: info@example.com
+                  </p>
+
+                  <div class="d-flex gap-3">
+                     <i
+                        class="border text-white-50 rounded-circle fs-6 px-2 py-1 bi bi-twitter-x"
+                     ></i>
+                     <i
+                        class="border text-white-50 rounded-circle fs-6 px-2 py-1 bi bi-facebook"
+                     ></i
+                     ><i
+                        class="border text-white-50 rounded-circle fs-6 px-2 py-1 bi bi-instagram"
+                     ></i>
+                     <i
+                        class="border text-white-50 rounded-circle fs-6 px-2 py-1 bi bi-linkedin"
+                     ></i>
+                  </div>
+               </div>
+               <div class="col-lg-2 pb-4">
+                  <h5 class="pb-2">Useful Links</h5>
+                  <ul style="list-style-type: none; padding: 0; margin: 0">
+                     <li class="pb-2">Home</li>
+                     <li class="pb-2">About us</li>
+                     <li class="pb-2">Services</li>
+                     <li class="pb-2">Terms of service</li>
+                     <li class="pb-2">Privacy policy</li>
+                  </ul>
+               </div>
+               <div class="col-lg-2 pb-4">
+                  <h5 class="pb-2">Our Services</h5>
+                  <ul style="list-style-type: none; padding: 0; margin: 0">
+                     <li class="pb-2">Web Design</li>
+                     <li class="pb-2">Web Development</li>
+                     <li class="pb-2">Product Management</li>
+                     <li class="pb-2">Marketing</li>
+                     <li class="pb-2">Graphics design</li>
+                  </ul>
+               </div>
+               <div class="col-lg-4 pb-4">
+                  <h5 class="pb-2">Our Newsletter</h5>
+                  <p>
+                     Subscribe to our newsletter and receive the latest news
+                     about our products and services!
+                  </p>
+
+                  <form action="" class="text-white">
+                     <input
+                        type="email"
+                        class="p-2 border-white border-1 rounded-1 rounded-end-0 border-end-0 bg-dark"
+                     /><button
+                        type="submit"
+                        class="p-2 border-white border-1 rounded-1 rounded-start-0 border-start-0 bg-danger"
+                     >
+                        Subscribe
+                     </button>
+                  </form>
+               </div>
+            </div>
+            <hr class="my-3" />
+            <div class="text-center pb-2">
+               <p>
+                  © Copyright Presento All Rights Reserved <br />
+
+                  <small>
+                     Designed by
+                     <span class="text-danger">Christo jacob</span></small
+                  >
+               </p>
+            </div>
+         </div>
+      </footer>
+
+      <!-- footer end -->
+
+      <script
+         src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+         integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+         crossorigin="anonymous"
+         referrerpolicy="no-referrer"
+      ></script>
+      <script
+         src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+         integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+         crossorigin="anonymous"
+         referrerpolicy="no-referrer"
+      ></script>
+      <script
+         src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+         crossorigin="anonymous"
+      ></script>
+      <script>
+         $(".carousel-1").owlCarousel({
+            loop: true,
+
+            autoplay: true,
+            margin: 140,
+
+            dots: true, // Enable dots for navigation
+            responsive: {
+               0: {
+                  items: 1,
+               },
+               600: {
+                  items: 3,
+               },
+               1000: {
+                  items: 6,
+               },
+            },
+         });
+         $(".carousel-2").owlCarousel({
+            loop: true,
+
+            autoplay: true,
+            margin: 40,
+            nav: true,
+            dots: true, // Enable dots for navigation
+            responsive: {
+               0: {
+                  items: 1,
+               },
+               600: {
+                  items: 3,
+               },
+            },
+         });
+      </script>
+   </body>
+</html>
